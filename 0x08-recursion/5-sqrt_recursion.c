@@ -4,9 +4,9 @@ int actual_sqrt_recursion(int n, int i);
 
 /**
  * _sqrt_recursion - returns the natural square root of a number
- * @n:number to calculate the square root of
+ * @n: number to calculate the square root of
  *
- * return the resulting square root
+ * Return: the resulting square root
  */
 int _sqrt_recursion(int n)
 {
@@ -17,14 +17,15 @@ int _sqrt_recursion(int n)
 
 /**
  * actual_sqrt_recursion - recurses to find the natural
- * square root of number
- * @n: number to calculate the square root of
+ * square root of a number
+ * @n: number to calculate the sqaure root of
  * @i: iterator
  *
  * Return: the resulting square root
- */int actual_sqrt_recursion(int n, int i)
+ */
+int actual_sqrt_recursion(int n, int i)
 {
-	if (i * i >)
+	if (i * i > n)
 		return (-1);
 	if (i * i == n)
 		return (i);
