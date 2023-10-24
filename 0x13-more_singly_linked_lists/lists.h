@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * struct listint_t - self referencial struct
+ * struct listint_s - self referencial struct
  * for reating nodes of a singly linked list
  *
  * @n: integer data
