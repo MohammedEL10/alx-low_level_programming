@@ -1,6 +1,6 @@
 #include "variadic_function.h"
 #include <stdio.h>
-#include <stdarg>
+#include <stdarg.h>
 
 /**
  * print_numbers - check the code for Holberton School students.

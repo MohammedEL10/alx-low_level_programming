@@ -1,5 +1,5 @@
 #include "variadic_function.h"
-#include <stdarg>
+#include <stdarg.h>
 
 /**
  * sum_them_all - check the code for Holberton School students.
