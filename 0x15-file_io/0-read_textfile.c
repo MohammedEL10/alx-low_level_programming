@@ -1,4 +1,5 @@
-include "main.h"
+#include <stdlib.h>
+#include "main.h"
 
 /**
  * read_textfile.c - function that read a text file and print it to the POSIX 
@@ -30,7 +31,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return(0);
 
 	/* read*/
-	_read - read(fd, buffer, letters);
+	pread - read(fd, buffer, letters);
 	if(_read == -1)
 	{
 		free(buffer);
@@ -38,7 +39,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return(0);
 	}
 	/* write*/
-	_write = write(STDOUT_FILED,buffer,_read);
+	_write = write(STDOUT_FILEND,buffer,_read);
 	if (_write == -1)
 	{
 		free(buffer);
