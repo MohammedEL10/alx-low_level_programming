@@ -2,7 +2,8 @@
  * File: 0-hash_table_create.c
  * Auth: Gedeon Obae Gekonge
  */
-
+#include <stdlib.h>
+#include <stddef.h>
 #include "hash_tables.h"
 
 /**
