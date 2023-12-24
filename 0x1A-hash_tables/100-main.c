@@ -12,9 +12,9 @@ int main(void)
 {
     shash_table_t *ht;
 
-    ht = shash_table_create(1024);
-    shash_table_set(ht, "y", "0");
-    shash_table_print(ht);
+    ht = hash_table_create(1024);
+    hash_table_set(ht, "y", "0");
+    hash_table_print(ht);
     shash_table_set(ht, "j", "1");
     shash_table_print(ht);
     shash_table_set(ht, "c", "2");
@@ -29,7 +29,7 @@ int main(void)
     shash_table_print(ht);
     shash_table_set(ht, "m", "7");
     shash_table_print(ht);
-    shash_table_print_rev(ht);
-        shash_table_delete(ht);
+    hash_table_print_rev(ht);
+        hash_table_delete(ht);
     return (EXIT_SUCCESS);
 }
